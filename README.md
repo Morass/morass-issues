@@ -37,10 +37,11 @@ The first question on both forms is **which game**. That answer becomes a
 ## The older trackers
 
 Each game used to have its own repo (`pyrewarden-issues`, `wardenmark-issues`,
-`the-concord-quarter-issues`). None of them had ever received an issue, so nothing
-needed moving — they are archived and read-only, pointing here. They are kept rather
-than deleted because links to them are already out in the world on three store pages,
-and an archived repo with a pointer beats a 404.
+`the-concord-quarter-issues`). None had ever received an issue, so nothing needed
+moving. They are kept and left **open**, with their forms removed and every route
+off them pointing here — links to them are printed on live store pages we cannot
+edit in a hurry, and archiving would have turned a shipped game's "Report a Bug"
+button into a dead end.
 
 ## Useful links
 
