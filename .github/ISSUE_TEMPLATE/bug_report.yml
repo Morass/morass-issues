@@ -1,0 +1,102 @@
+name: 🐛 Bug Report
+description: Report something broken or unexpected in any Morass Games title
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. The more detail, the faster the fix.
+
+        One tracker covers every Morass game — **pick the game first** so the report
+        reaches the right place.
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      description: Which game is this about?
+      options:
+        - Pyrewarden
+        - The Concord Quarter
+        - Wardenmark
+        - The Hushed Ledger
+        - Something else / not sure
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Every Morass game prints its version in small text in a corner of the main menu.
+      placeholder: "v0.8.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Linux
+        - Steam Deck
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Describe what you saw, including any error messages.
+      placeholder: "The boss stopped taking damage after I drafted a third upgrade."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      placeholder: "The boss should keep taking spell damage normally."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps someone else could follow to see the same thing.
+      placeholder: |
+        1. Start a new run as the Ember Warden.
+        2. Draft Emberlash at levels 2, 5 and 9.
+        3. Reach the boss and attack it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: where
+    attributes:
+      label: Where in the game
+      description: The screen, mode, level, case or menu it happened in — whatever names the spot.
+      placeholder: "Stage 7 boss node / the casebook / the settings menu"
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots, save file
+      description: |
+        Drag screenshots straight into this box.
+
+        If the game has a save or log folder you can find, attaching one helps a lot —
+        it is usually under your user profile, in a folder named after the game. Don't
+        worry if you can't find it; the report is still useful without it.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Anything else
+      description: Hardware, input device (mouse / keyboard / controller), display language, anything else that might matter.

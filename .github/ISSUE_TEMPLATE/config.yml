@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🎮 Morass Games
+    url: https://morass.github.io/
+    about: All our games — info, trailers, screenshots
+  - name: 🛒 Our games on Steam
+    url: https://store.steampowered.com/search/?developer=Morass
+    about: Store pages, reviews, discussions
+  - name: 💬 Discord
+    url: https://discord.gg/KTKarn46yq
+    about: Ask a question or chat with the community

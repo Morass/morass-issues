@@ -1,0 +1,48 @@
+# One tracker, four games — so the game has to become a label, or nothing is
+# filterable. GitHub issue forms cannot set a label from a dropdown answer, so
+# this reads the rendered "### Game" section out of the issue body and applies
+# the matching `game: …` label, removing any stale one when the reporter edits
+# their answer.
+name: Label by game
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  issues: write
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const GAMES = [
+              'Pyrewarden',
+              'The Concord Quarter',
+              'Wardenmark',
+              'The Hushed Ledger',
+            ];
+            const body = context.payload.issue.body || '';
+
+            // The form renders as "### Game\n\n<answer>\n\n### <next field>".
+            const m = body.match(/###\s+Game\s*\n+([^\n]+)/);
+            const answer = m ? m[1].trim() : '';
+            const game = GAMES.find(g => g === answer);
+
+            const wanted = game ? `game: ${game}` : null;
+            const current = context.payload.issue.labels.map(l => l.name);
+            const stale = current.filter(n => n.startsWith('game: ') && n !== wanted);
+
+            for (const name of stale) {
+              await github.rest.issues.removeLabel({
+                ...context.repo, issue_number: context.issue.number, name,
+              });
+            }
+            if (wanted && !current.includes(wanted)) {
+              await github.rest.issues.addLabels({
+                ...context.repo, issue_number: context.issue.number, labels: [wanted],
+              });
+            }

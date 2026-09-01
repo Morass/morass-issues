@@ -1,0 +1,31 @@
+name: ✨ Feature Request
+description: Suggest anything you would like to see in a Morass game
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Put a short summary in the title above and the detail below.
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      description: Which game is this for?
+      options:
+        - Pyrewarden
+        - The Concord Quarter
+        - Wardenmark
+        - The Hushed Ledger
+        - Something else / all of them
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What would you like to see, and why? A new mechanic, a quality-of-life change, a setting, an accessibility option — anything.
+    validations:
+      required: true
