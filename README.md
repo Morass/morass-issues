@@ -38,10 +38,9 @@ The first question on both forms is **which game**. That answer becomes a
 
 Each game used to have its own repo (`pyrewarden-issues`, `wardenmark-issues`,
 `the-concord-quarter-issues`). None had ever received an issue, so nothing needed
-moving. They are kept and left **open**, with their forms removed and every route
-off them pointing here — links to them are printed on live store pages we cannot
-edit in a hurry, and archiving would have turned a shipped game's "Report a Bug"
-button into a dead end.
+moving. They are kept and left **open**, with their forms removed and every route off
+them pointing here, so that a bookmark or a search result lands on a redirect rather
+than on an archived repo's disabled *New Issue* button.
 
 ## Useful links
 
