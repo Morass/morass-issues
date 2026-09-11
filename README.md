@@ -47,3 +47,7 @@ than on an archived repo's disabled *New Issue* button.
 - 🎮 [Morass Games](https://morass.github.io/)
 - 🛒 [Our games on Steam](https://store.steampowered.com/search/?developer=Morass)
 - 💬 [Discord](https://discord.gg/KTKarn46yq)
+
+## Mobile
+
+- **Lanternward** (Android, logic puzzle) — https://morass.github.io/lanternward/ — report bugs and feedback here too; pick "Lanternward (Android)" in the Game field and include your Android version and the app version shown in Settings.

@@ -18,6 +18,7 @@ body:
         - The Concord Quarter
         - Wardenmark
         - The Hushed Ledger
+        - Lanternward (Android)
         - Something else / all of them
     validations:
       required: true
