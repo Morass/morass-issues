@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 🌐 Play in your browser
+    url: https://morassgames.com/
+    about: Free browser games — no account needed
   - name: 🎮 Morass Games
     url: https://morass.github.io/
     about: All our games — info, trailers, screenshots

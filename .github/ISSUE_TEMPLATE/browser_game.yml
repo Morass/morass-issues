@@ -1,0 +1,63 @@
+name: 🌐 Browser game (morassgames.com)
+description: Something broken, a place you are stuck, or an idea, in a game you play on morassgames.com
+title: "[Browser] "
+labels: ["web"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for writing in. If you came here from a game's **Report a problem** button,
+        the game and the page are already filled in — just tell us what happened.
+
+        Everything on this page is public, so leave out anything private.
+
+  # Free text, not a dropdown: the site's button fills it in, so a new browser game
+  # needs no change to this form.
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      description: Which game on morassgames.com? Write "the site" if it is not about one game.
+      placeholder: "Sudoku"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - Something is broken
+        - I am stuck
+        - An idea
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw instead.
+      placeholder: "I finished today's daily and the timer kept running."
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      description: Half of all "it broke" reports are one browser, so this helps a lot.
+      placeholder: "Phone, Chrome on Android / Laptop, Safari on macOS"
+
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The address of the game page.
+      placeholder: "https://morassgames.com/games/sudoku/"
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag a screenshot straight into this box if you have one.
