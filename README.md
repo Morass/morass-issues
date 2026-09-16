@@ -18,7 +18,7 @@ Click **[Issues → New Issue](../../issues/new/choose)** and pick a template:
 
 - 🐛 **Bug report** — something is broken
 - ✨ **Feature request** — something you would like to see
-- 🌐 **Browser game** — anything about a game on [morassgames.com](https://morassgames.com/);
+- 🎮 **Minigames on morassgames.com** — one form for every browser minigame on [morassgames.com](https://morassgames.com/);
   every game page there has a **Report a problem** button that opens this form with the
   game already filled in
 
@@ -51,10 +51,10 @@ than on an archived repo's disabled *New Issue* button.
 - 🛒 [Our games on Steam](https://store.steampowered.com/search/?developer=Morass)
 - 💬 [Discord](https://discord.gg/KTKarn46yq)
 
-## Browser games
+## Minigames
 
-Games on [morassgames.com](https://morassgames.com/) use their own form and carry the
-[`web`](../../issues?q=is%3Aissue+label%3Aweb) label; the game is the title prefix
+Every minigame on [morassgames.com](https://morassgames.com/) shares one form and carries the
+[`minigames`](../../issues?q=is%3Aissue+label%3Aminigames) label; the game is the title prefix
 (`[Sudoku] …`) rather than a `game: …` label, so a new browser game needs no change here.
 
 ## Mobile

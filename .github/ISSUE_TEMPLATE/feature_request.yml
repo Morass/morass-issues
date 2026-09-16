@@ -12,7 +12,7 @@ body:
     id: game
     attributes:
       label: Game
-      description: Which game is this for?
+      description: Which game is this for? For a minigame on morassgames.com, go back and pick the **Minigames on morassgames.com** form instead.
       options:
         - Pyrewarden
         - The Concord Quarter
