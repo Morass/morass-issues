@@ -6,7 +6,7 @@ Public issue tracker for **every** [Morass Games](https://morass.github.io/) tit
 |---|---|---|
 | Pyrewarden | [site](https://morass.github.io/pyrewarden/) | [store](https://store.steampowered.com/app/4774690/Pyrewarden/) |
 | The Concord Quarter | [site](https://morass.github.io/concord/) | [store](https://store.steampowered.com/app/4893010/Concord_Quarter/) |
-| Wardenmark | [site](https://morass.github.io/wardenmark/) | [store](https://store.steampowered.com/app/5003530/Wardenmark/) |
+| Wardenmark | [site](https://morass.github.io/wardenmark/) · [wiki](https://morassgames.com/wiki/wardenmark/) | [store](https://store.steampowered.com/app/5003530/Wardenmark/) |
 | The Hushed Ledger | [site](https://morass.github.io/hushed-ledger/) | [store](https://store.steampowered.com/app/5147560/) |
 
 The games' source code lives in private repositories. This repo exists only so anyone
