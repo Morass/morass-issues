@@ -24,6 +24,7 @@ jobs:
               'The Concord Quarter',
               'Wardenmark',
               'The Hushed Ledger',
+              'Morrowvane',
             ];
             const body = context.payload.issue.body || '';
 

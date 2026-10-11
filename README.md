@@ -8,6 +8,7 @@ Public issue tracker for **every** [Morass Games](https://morass.github.io/) tit
 | The Concord Quarter | [site](https://morass.github.io/concord/) | [store](https://store.steampowered.com/app/4893010/Concord_Quarter/) |
 | Wardenmark | [site](https://morass.github.io/wardenmark/) · [wiki](https://morassgames.com/wiki/wardenmark/) | [store](https://store.steampowered.com/app/5003530/Wardenmark/) |
 | The Hushed Ledger | [site](https://morass.github.io/hushed-ledger/) | [store](https://store.steampowered.com/app/5147560/) |
+| Morrowvane | [wiki](https://morassgames.com/wiki/morrowvane/) | [store](https://store.steampowered.com/app/5428760/) |
 
 The games' source code lives in private repositories. This repo exists only so anyone
 can file a report without needing source access.
@@ -27,7 +28,8 @@ The first question on both forms is **which game**. That answer becomes a
 [Pyrewarden](../../issues?q=is%3Aissue+label%3A%22game%3A+Pyrewarden%22) ·
 [The Concord Quarter](../../issues?q=is%3Aissue+label%3A%22game%3A+The+Concord+Quarter%22) ·
 [Wardenmark](../../issues?q=is%3Aissue+label%3A%22game%3A+Wardenmark%22) ·
-[The Hushed Ledger](../../issues?q=is%3Aissue+label%3A%22game%3A+The+Hushed+Ledger%22)
+[The Hushed Ledger](../../issues?q=is%3Aissue+label%3A%22game%3A+The+Hushed+Ledger%22) ·
+[Morrowvane](../../issues?q=is%3Aissue+label%3A%22game%3A+Morrowvane%22)
 
 ## Before filing
 
