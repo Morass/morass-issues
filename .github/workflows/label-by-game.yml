@@ -25,6 +25,7 @@ jobs:
               'Wardenmark',
               'The Hushed Ledger',
               'Morrowvane',
+              'Emberveth',
             ];
             const body = context.payload.issue.body || '';
 
