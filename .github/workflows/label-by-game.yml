@@ -26,6 +26,7 @@ jobs:
               'The Hushed Ledger',
               'Morrowvane',
               'Emberveth',
+              'One More Take',
             ];
             const body = context.payload.issue.body || '';
 

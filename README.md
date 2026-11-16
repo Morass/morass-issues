@@ -31,7 +31,8 @@ The first question on both forms is **which game**. That answer becomes a
 [Wardenmark](../../issues?q=is%3Aissue+label%3A%22game%3A+Wardenmark%22) ·
 [The Hushed Ledger](../../issues?q=is%3Aissue+label%3A%22game%3A+The+Hushed+Ledger%22) ·
 [Morrowvane](../../issues?q=is%3Aissue+label%3A%22game%3A+Morrowvane%22) ·
-[Emberveth](../../issues?q=is%3Aissue+label%3A%22game%3A+Emberveth%22)
+[Emberveth](../../issues?q=is%3Aissue+label%3A%22game%3A+Emberveth%22) ·
+[One More Take](../../issues?q=is%3Aissue+label%3A%22game%3A+One+More+Take%22)
 
 ## Before filing
 
@@ -64,3 +65,4 @@ Every minigame on [morassgames.com](https://morassgames.com/) shares one form an
 ## Mobile
 
 - **Lanternward** (Android, logic puzzle) — https://morass.github.io/lanternward/ — report bugs and feedback here too; pick "Lanternward (Android)" in the Game field and include your Android version and the app version shown in Settings.
+- **One More Take** (Android and iPhone/iPad, puzzle) — report bugs and feedback here; pick "One More Take" in the Game field, choose Android or iPhone / iPad as the platform, and include the version shown in Settings (the line starting with "v").

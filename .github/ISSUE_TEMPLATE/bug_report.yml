@@ -24,6 +24,7 @@ body:
         - Morrowvane
         - Emberveth
         - Lanternward (Android)
+        - One More Take
         - Something else / not sure
     validations:
       required: true
@@ -47,6 +48,8 @@ body:
         - macOS (Intel)
         - Linux
         - Steam Deck
+        - Android
+        - iPhone / iPad
         - Other
     validations:
       required: true
