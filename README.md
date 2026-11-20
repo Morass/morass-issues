@@ -10,6 +10,9 @@ Public issue tracker for **every** [Morass Games](https://morass.github.io/) tit
 | The Hushed Ledger | [site](https://morass.github.io/hushed-ledger/) | [store](https://store.steampowered.com/app/5147560/) |
 | Morrowvane | [wiki](https://morassgames.com/wiki/morrowvane/) | [store](https://store.steampowered.com/app/5428760/) |
 | Emberveth | [wiki](https://morassgames.com/wiki/emberveth/) | [store](https://store.steampowered.com/app/5486000/) |
+| Bressnath | [wiki](https://morassgames.com/wiki/bressnath/) | [store](https://store.steampowered.com/app/5268700/) |
+| Krevholt | [wiki](https://morassgames.com/wiki/krevholt/) | [store](https://store.steampowered.com/app/5270210/) |
+| Scripts of Power | [wiki](https://morassgames.com/wiki/scripts-of-power/) | [store](https://store.steampowered.com/app/5515170/) |
 
 The games' source code lives in private repositories. This repo exists only so anyone
 can file a report without needing source access.
@@ -32,6 +35,9 @@ The first question on both forms is **which game**. That answer becomes a
 [The Hushed Ledger](../../issues?q=is%3Aissue+label%3A%22game%3A+The+Hushed+Ledger%22) ·
 [Morrowvane](../../issues?q=is%3Aissue+label%3A%22game%3A+Morrowvane%22) ·
 [Emberveth](../../issues?q=is%3Aissue+label%3A%22game%3A+Emberveth%22) ·
+[Bressnath](../../issues?q=is%3Aissue+label%3A%22game%3A+Bressnath%22) ·
+[Krevholt](../../issues?q=is%3Aissue+label%3A%22game%3A+Krevholt%22) ·
+[Scripts of Power](../../issues?q=is%3Aissue+label%3A%22game%3A+Scripts+of+Power%22) ·
 [One More Take](../../issues?q=is%3Aissue+label%3A%22game%3A+One+More+Take%22)
 
 ## Before filing

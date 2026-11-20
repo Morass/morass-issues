@@ -26,6 +26,9 @@ jobs:
               'The Hushed Ledger',
               'Morrowvane',
               'Emberveth',
+              'Bressnath',
+              'Krevholt',
+              'Scripts of Power',
               'One More Take',
             ];
             const body = context.payload.issue.body || '';
