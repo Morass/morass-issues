@@ -31,6 +31,7 @@ jobs:
               'Scripts of Power',
               'One More Take',
               'The Last Guest of Winter',
+              'Pocket Moons',
             ];
             const body = context.payload.issue.body || '';
 
