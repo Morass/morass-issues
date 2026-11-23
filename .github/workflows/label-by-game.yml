@@ -33,6 +33,7 @@ jobs:
               'The Last Guest of Winter',
               'Pocket Moons',
               'Twenty Winters',
+              'The Bell That Rang Twice',
             ];
             const body = context.payload.issue.body || '';
 
