@@ -38,7 +38,8 @@ The first question on both forms is **which game**. That answer becomes a
 [Bressnath](../../issues?q=is%3Aissue+label%3A%22game%3A+Bressnath%22) ·
 [Krevholt](../../issues?q=is%3Aissue+label%3A%22game%3A+Krevholt%22) ·
 [Scripts of Power](../../issues?q=is%3Aissue+label%3A%22game%3A+Scripts+of+Power%22) ·
-[One More Take](../../issues?q=is%3Aissue+label%3A%22game%3A+One+More+Take%22)
+[One More Take](../../issues?q=is%3Aissue+label%3A%22game%3A+One+More+Take%22) ·
+[The Last Guest of Winter](../../issues?q=is%3Aissue+label%3A%22game%3A+The+Last+Guest+of+Winter%22)
 
 ## Before filing
 
@@ -66,7 +67,7 @@ than on an archived repo's disabled *New Issue* button.
 
 Every minigame on [morassgames.com](https://morassgames.com/) shares one form and carries the
 [`minigames`](../../issues?q=is%3Aissue+label%3Aminigames) label; the game is the title prefix
-(`[Sudoku] …`) rather than a `game: …` label, so a new browser game needs no change here.
+(`[Sudoku] …`) and titles registered for standalone distribution also receive their `game: …` label.
 
 ## Mobile
 

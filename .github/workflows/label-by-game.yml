@@ -30,6 +30,7 @@ jobs:
               'Krevholt',
               'Scripts of Power',
               'One More Take',
+              'The Last Guest of Winter',
             ];
             const body = context.payload.issue.body || '';
 
