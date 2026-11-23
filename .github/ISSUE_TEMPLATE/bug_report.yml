@@ -28,6 +28,7 @@ body:
         - Scripts of Power
         - Lanternward (Android)
         - One More Take
+        - Pocket Moons
         - Something else / not sure
     validations:
       required: true
