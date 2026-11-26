@@ -36,6 +36,7 @@ jobs:
               'Greybox Quarry',
               'Twenty Winters',
               'The Bell That Rang Twice',
+              'Velstraven',
             ];
             const body = context.payload.issue.body || '';
 
